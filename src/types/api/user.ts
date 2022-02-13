@@ -11,6 +11,7 @@ export type User = {
     geo: {
       lat: string;
       lng: string;
+    };
   };
   phone: string;
   website: string;
@@ -18,5 +19,5 @@ export type User = {
     name: string;
     catchPhrase: string;
     bs: string;
-  }
-}
+  };
+};
